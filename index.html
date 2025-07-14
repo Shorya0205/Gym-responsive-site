@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <meta name="description" content="Pulse Fitness - Transform your body and mind with the best gym in town. Join expert trainers, dynamic sessions, and a supportive community." />
+    <meta property="og:title" content="Pulse Fitness - Make Your Body Shape" />
+    <meta property="og:description" content="Transform your body and mind with the best gym in town. Join expert trainers, dynamic sessions, and a supportive community." />
+    <meta property="og:image" content="assets/logo.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-fitness-site.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pulse Fitness - Make Your Body Shape" />
+    <meta name="twitter:description" content="Transform your body and mind with the best gym in town. Join expert trainers, dynamic sessions, and a supportive community." />
+    <meta name="twitter:image" content="assets/logo.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
+    <title>FITFLEX</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo">
+        <a href="#"><img src="assets/logo new.png" alt=" Fitness logo" /></a>
+      </div>
+      <button class="nav__toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li class="link"><a href="#" aria-label="Home">Home</a></li>
+        <li class="link"><a href="#" aria-label="Program">Program</a></li>
+        <li class="link"><a href="#" aria-label="Service">Service</a></li>
+        <li class="link"><a href="#" aria-label="About">Get in touch</a></li>
+        <li class="link"><a href="#" aria-label="Community">Pricings</a></li>
+      </ul>
+      <button class="btn">Join Now</button>
+      <div class="nav__overlay" id="navOverlay"></div>
+    </nav>
+
+    <header class="section__container header__container animate-in-section">
+      <div class="header__content">
+        <span class="bg__blur"></span>
+        <span class="bg__blur header__blur"></span>
+        <div class="header__badge">
+          <i class="ri-fire-fill"></i>
+          <span>BEST FITNESS IN THE TOWN</span>
+        </div>
+        <h1><span>WEAKNESS </span> IS A CHOICE</h1>
+        <p>
+          Unleash your full potential and start your journey to a stronger, healthier, and more confident you. Sign up for <b>Make Your Body Shape</b> today and see just how far you can go!
+        </p>
+        <div class="header__stats">
+          <div class="stat__item">
+            <span class="stat__number">500+</span>
+            <span class="stat__label">Active Members</span>
+          </div>
+          <div class="stat__item">
+            <span class="stat__number">50+</span>
+            <span class="stat__label">Expert Trainers</span>
+          </div>
+          <div class="stat__item">
+            <span class="stat__number">100+</span>
+            <span class="stat__label">Workout Programs</span>
+          </div>
+        </div>
+        <div class="header__actions">
+          <button class="btn header__btn">
+            <span class="text-1">Get Started</span>
+            <span class="text-2">Get Started</span>
+          </button>
+          <button class="btn header__btn--secondary">
+            <i class="ri-play-fill"></i>
+            <span>Watch Video</span>
+          </button>
+        </div>
+      </div>
+      <div class="header__image">
+        <div class="header__image__wrapper">
+          <img src="assets/h1.jpg" alt="Fitclub hero" loading="lazy" />
+          <div class="header__image__overlay">
+            <div class="overlay__card">
+              <i class="ri-heart-pulse-fill"></i>
+              <div class="overlay__content">
+                <h4>Heart Rate</h4>
+                <p>116 bpm</p>
+              </div>
+            </div>
+            <div class="overlay__card">
+              <i class="ri-time-fill"></i>
+              <div class="overlay__content">
+                <h4>Calories</h4>
+                <p>1,200 kcal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container explore__container animate-in-section">
+      <div class="explore__header">
+        <h2 class="section__header">EXPLORE OUR PROGRAM</h2>
+        <!-- Removed the navigation arrows below -->
+        <!-- <div class="explore__nav">
+          <span><i class="ri-arrow-left-line"></i></span>
+          <span><i class="ri-arrow-right-line"></i></span>
+        </div> -->
+      </div>
+      <div class="explore__grid">
+        <div class="explore__card">
+          <span><i class="ri-boxing-fill"></i></span>
+          <h4>Strength</h4>
+          <p>
+            Embrace the essence of strength as we delve into its various
+            dimensions physical, mental, and emotional.
+          </p>
+          <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-heart-pulse-fill"></i></span>
+          <h4>Physical Fitness</h4>
+          <p>
+            It encompasses a range of activities that improve health, strength,
+            flexibility, and overall well-being.
+          </p>
+          <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-run-line"></i></span>
+          <h4>Fat Lose</h4>
+          <p>
+            Through a combination of workout routines and expert guidance, we'll
+            empower you to reach your goals.
+          </p>
+          <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-shopping-basket-fill"></i></span>
+          <h4>Weight Gain</h4>
+          <p>
+            Designed for individuals, our program offers an effective approach
+            to gaining weight in a sustainable manner.
+          </p>
+          <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container join__container animate-in-section">
+      <h2 class="section__header">WHY JOIN US?</h2>
+      <p class="section__subheader">
+        Unlock your best self with expert coaching, energizing sessions, and a community that cheers you on every step of the way.
+      </p>
+      <div class="join__grid">
+        <div class="join__card">
+          <span><i class="ri-user-star-fill"></i></span>
+          <div class="join__card__content">
+            <h4>Personal Coaching</h4>
+            <p>Work one-on-one with certified trainers who are dedicated to your unique fitness journey and success.</p>
+          </div>
+        </div>
+        <div class="join__card">
+          <span><i class="ri-vidicon-fill"></i></span>
+          <div class="join__card__content">
+            <h4>Dynamic Sessions</h4>
+            <p>Stay inspired with a variety of group classes and practice sessions designed to keep you engaged and progressing.</p>
+          </div>
+        </div>
+        <div class="join__card">
+          <span><i class="ri-building-line"></i></span>
+          <div class="join__card__content">
+            <h4>Supportive Community</h4>
+            <p>Be part of a positive, welcoming community that celebrates your wins and supports you every step of the way.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="price__container animate-in-section">
+      <h2 class="section__header">OUR PRICING PLAN</h2>
+      <p class="section__subheader">
+        Choose the plan that fits your fitness journey. Every tier is built to help you reach your goals with the right support and features.
+      </p>
+      <div class="price__grid">
+        <div class="price__card">
+          <div class="price__badge">Most Popular</div>
+          <div class="price__card__content">
+            <div class="price__header">
+              <h4>Basic Plan</h4>
+              <div class="price__amount">
+                <span class="price__currency">$</span>
+                <span class="price__value">16</span>
+                <span class="price__period">/month</span>
+              </div>
+            </div>
+            <div class="price__features">
+              <p><i class="ri-checkbox-circle-line"></i>Smart workout plan</p>
+              <p><i class="ri-checkbox-circle-line"></i>At home workouts</p>
+              <p><i class="ri-checkbox-circle-line"></i>Basic equipment access</p>
+              <p><i class="ri-checkbox-circle-line"></i>Email support</p>
+              <p><i class="ri-checkbox-circle-line"></i>Progress tracking</p>
+            </div>
+          </div>
+          <button class="btn price__btn">
+            <span class="text-1">Get Started</span>
+            <span class="text-2">Get Started</span>
+          </button>
+        </div>
+        
+        <div class="price__card price__card--featured">
+          <div class="price__badge price__badge--featured">Best Value</div>
+          <div class="price__card__content">
+            <div class="price__header">
+              <h4>Weekly Plan</h4>
+              <div class="price__amount">
+                <span class="price__currency">$</span>
+                <span class="price__value">25</span>
+                <span class="price__period">/week</span>
+              </div>
+            </div>
+            <div class="price__features">
+              <p><i class="ri-checkbox-circle-line"></i>PRO Gyms access</p>
+              <p><i class="ri-checkbox-circle-line"></i>Smart workout plan</p>
+              <p><i class="ri-checkbox-circle-line"></i>At home workouts</p>
+              <p><i class="ri-checkbox-circle-line"></i>Group classes</p>
+              <p><i class="ri-checkbox-circle-line"></i>Priority support</p>
+              <p><i class="ri-checkbox-circle-line"></i>Nutrition guidance</p>
+            </div>
+          </div>
+          <button class="btn price__btn price__btn--featured">
+            <span class="text-1">Join Now</span>
+            <span class="text-2">Join Now</span>
+          </button>
+        </div>
+        
+        <div class="price__card">
+          <div class="price__badge">Premium</div>
+          <div class="price__card__content">
+            <div class="price__header">
+              <h4>Monthly Plan</h4>
+              <div class="price__amount">
+                <span class="price__currency">$</span>
+                <span class="price__value">45</span>
+                <span class="price__period">/month</span>
+              </div>
+            </div>
+            <div class="price__features">
+              <p><i class="ri-checkbox-circle-line"></i>ELITE Gyms & Classes</p>
+              <p><i class="ri-checkbox-circle-line"></i>PRO Gyms access</p>
+              <p><i class="ri-checkbox-circle-line"></i>Smart workout plan</p>
+              <p><i class="ri-checkbox-circle-line"></i>At home workouts</p>
+              <p><i class="ri-checkbox-circle-line"></i>Personal Training</p>
+              <p><i class="ri-checkbox-circle-line"></i>24/7 support</p>
+              <p><i class="ri-checkbox-circle-line"></i>Custom meal plans</p>
+            </div>
+          </div>
+          <button class="btn price__btn">
+            <span class="text-1">Get Premium</span>
+            <span class="text-2">Get Premium</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="review testimonials-section animate-in-section">
+      <h2 class="section__header">Testimonials</h2>
+      <div class="section__container review__container">
+        <div class="testimonial-card" id="testimonial-card">
+          <div class="testimonial-quote">
+            <span><i class="ri-double-quotes-r"></i></span>
+          </div>
+          <div class="testimonial-content">
+            <p id="testimonial-text">
+              What truly sets this gym apart is their expert team of trainers. The trainers are knowledgeable, approachable, and genuinely invested in helping members achieve their fitness goals. They take the time to understand individual needs and create personalized workout plans, ensuring maximum results and safety.
+            </p>
+            <div class="review__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <div class="testimonial-member">
+              <img id="testimonial-img" src="assets/test 2.jpg" alt="Testimonial member photo" loading="lazy" />
+              <div class="testimonial-member-details">
+                <h4 id="testimonial-name">Jane Cooper</h4>
+                <p id="testimonial-role">Software Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-arrows">
+          <span id="testimonial-prev"><i class="ri-arrow-left-line"></i></span>
+          <span id="testimonial-next"><i class="ri-arrow-right-line"></i></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact__container animate-in-section">
+      <h2 class="section__header">GET IN TOUCH</h2>
+      <p class="section__subheader">
+        Ready to transform your life? Contact us today and let’s achieve your goals together!
+      </p>
+      <div class="contact__wrapper">
+        <div class="contact__content">
+          <div class="contact__info">
+            <div class="contact__card">
+              <span><i class="ri-map-pin-fill"></i></span>
+              <div class="contact__details">
+                <h4>Visit Us</h4>
+                <p>742 Evergreen Terrace, Springfield<br>IL 62704, USA</p>
+              </div>
+            </div>
+            <div class="contact__card">
+              <span><i class="ri-phone-fill"></i></span>
+              <div class="contact__details">
+                <h4>Call Us</h4>
+                <p>+1 (312) 555-0198<br>+1 (312) 555-0172</p>
+              </div>
+            </div>
+            <div class="contact__card">
+              <span><i class="ri-mail-fill"></i></span>
+              <div class="contact__details">
+                <h4>Email Us</h4>
+                <p>info@fitflex.com<br>support@fitflex.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact__form">
+            <form id="contactForm">
+              <div class="form__group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+              </div>
+              <div class="form__group">
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                <select id="subject" name="subject" required>
+                  <option value="">Select Subject</option>
+                  <option value="membership">Membership Inquiry</option>
+                  <option value="training">Personal Training</option>
+                  <option value="classes">Class Schedule</option>
+                  <option value="general">General Question</option>
+                </select>
+              </div>
+              <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+              <button type="submit" class="btn contact__btn">
+                <span class="text-1">Send Message</span>
+                <span class="text-2">Send Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section__container footer__container animate-in-section">
+      <span class="bg__blur"></span>
+      <span class="bg__blur footer__blur"></span>
+      <div class="footer__col">
+        <div class="footer__logo"><a href="#"><img src="assets/logo new.png" alt=" Fitness logo" /></a></div>
+        <p>
+          Take the first step toward a healthier, stronger you. Let’s sweat, achieve, and conquer—together!
+        </p>
+        <div class="footer__socials">
+          <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+          <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+          <a href="#" aria-label="Twitter"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="#">Business</a>
+        <a href="#">Franchise</a>
+        <a href="#">Partnership</a>
+        <a href="#">Network</a>
+      </div>
+      <div class="footer__col">
+        <h4>About Us</h4>
+        <a href="#">Blogs</a>
+        <a href="#">Security</a>
+        <a href="#">Careers</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="tel:+15551234567"><i class="ri-phone-line"></i> +1 (555) 183-4567</a>
+        <a href="mailto:info@fitflex.com"><i class="ri-mail-line"></i> info@fitflex.com</a>
+        <a href="#"><i class="ri-map-pin-line"></i> 742 Evergreen Terrace, Springfield, IL 704</a>
+        <a href="#"><i class="ri-time-line"></i> Mon-Fri: 6AM-10PM</a>
+      </div>
+      <div class="footer__col">
+        <h4>Legal</h4>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">BMI Calculator</a>
+      </div>
+      <div class="footer__copyright">Copyright.Shorya gupta. All rights reserved.</div>
+    </footer>
+    <script src="control.js"></script>
+  </body>
+</html>
