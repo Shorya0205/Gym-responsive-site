@@ -22,25 +22,25 @@ const testimonials = [
     text: `What truly sets this gym apart is their expert team of trainers. The trainers are knowledgeable, approachable, and genuinely invested in helping members achieve their fitness goals. They take the time to understand individual needs and create personalized workout plans, ensuring maximum results and safety.`,
     name: 'Jane Cooper',
     role: 'Software Developer',
-    img: 'assets/test 2.jpg'
+    img: 'assets/test 2.webp'
   },
   {
     text: `Pulse Fitness has completely changed my outlook on health and fitness. The community is supportive, the classes are always challenging, and the trainers keep me motivated. I feel stronger and more confident every day. The facilities are always clean and the staff is incredibly friendly, making every visit enjoyable and productive.`,
     name: 'Alex Morgan',
     role: 'Marketing Specialist',
-    img: 'assets/c2.jpg'
+    img: 'assets/c2.webp'
   },
   {
     text: `I love the variety of programs and the personal attention from the trainers. The facilities are top-notch, the staff is friendly, and I always look forward to my workouts at Pulse Fitness! The trainers go above and beyond to help you reach your goals, and the positive atmosphere keeps me coming back week after week.`,
     name: 'Lily Madison',
     role: 'Entrepreneur',
-    img: 'assets/test 3.jpg'
+    img: 'assets/test 3.webp'
   },
   {
     text: `Joining Pulse Fitness was the best decision I made for my health. The trainers are always encouraging, the equipment is state-of-the-art, and the group classes are both fun and effective. I’ve made great friends and achieved results I never thought possible!`,
     name: 'Ava Nicole',
     role: 'Business Analyst',
-    img: 'assets/test 1.jpg'
+    img: 'assets/test 1.webp'
   }
 ];
 
