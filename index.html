@@ -33,12 +33,12 @@
       </button>
       <ul class="nav__links" id="navLinks">
         <li class="link"><a href="#" aria-label="Home">Home</a></li>
-        <li class="link"><a href="#" aria-label="Program">Program</a></li>
-        <li class="link"><a href="#" aria-label="Service">Service</a></li>
-        <li class="link"><a href="#" aria-label="About">Get in touch</a></li>
-        <li class="link"><a href="#" aria-label="Community">Pricings</a></li>
+        <li class="link"><a href="#explore" aria-label="Program">Program</a></li>
+        <li class="link"><a href="#whyjoin" aria-label="Service">Service</a></li>
+        <li class="link"><a href="#contact" aria-label="About">Get in touch</a></li>
+        <li class="link"><a href="#pricing" aria-label="Community">Pricings</a></li>
       </ul>
-      <button class="btn">Join Now</button>
+      <a class="btn" href="#contact">Join Now</a>
       <div class="nav__overlay" id="navOverlay"></div>
     </nav>
 
@@ -81,7 +81,7 @@
       </div>
       <div class="header__image">
         <div class="header__image__wrapper">
-          <img src="assets/h1.jpg" alt="Fitclub hero" loading="lazy" />
+          <img src="assets/h1.webp" alt="Fitclub hero" loading="lazy" />
           <div class="header__image__overlay">
             <div class="overlay__card">
               <i class="ri-heart-pulse-fill"></i>
@@ -102,7 +102,7 @@
       </div>
     </header>
 
-    <section class="section__container explore__container animate-in-section">
+    <section class="section__container explore__container animate-in-section" id="explore">
       <div class="explore__header">
         <h2 class="section__header">EXPLORE OUR PROGRAM</h2>
         <!-- Removed the navigation arrows below -->
@@ -151,7 +151,7 @@
       </div>
     </section>
 
-    <section class="section__container join__container animate-in-section">
+    <section class="section__container join__container animate-in-section" id="whyjoin">
       <h2 class="section__header">WHY JOIN US?</h2>
       <p class="section__subheader">
         Unlock your best self with expert coaching, energizing sessions, and a community that cheers you on every step of the way.
@@ -181,7 +181,7 @@
       </div>
     </section>
 
-    <section class="price__container animate-in-section">
+    <section class="price__container animate-in-section" id="pricing">
       <h2 class="section__header">OUR PRICING PLAN</h2>
       <p class="section__subheader">
         Choose the plan that fits your fitness journey. Every tier is built to help you reach your goals with the right support and features.
@@ -267,7 +267,7 @@
       </div>
     </section>
 
-    <section class="review testimonials-section animate-in-section">
+    <section class="review testimonials-section animate-in-section" id="testimonials">
       <h2 class="section__header">Testimonials</h2>
       <div class="section__container review__container">
         <div class="testimonial-card" id="testimonial-card">
@@ -286,7 +286,7 @@
               <span><i class="ri-star-fill"></i></span>
             </div>
             <div class="testimonial-member">
-              <img id="testimonial-img" src="assets/test 2.jpg" alt="Testimonial member photo" loading="lazy" />
+              <img id="testimonial-img" src="assets/test 2.webp" alt="Testimonial member photo" loading="lazy" />
               <div class="testimonial-member-details">
                 <h4 id="testimonial-name">Jane Cooper</h4>
                 <p id="testimonial-role">Software Developer</p>
@@ -294,14 +294,10 @@
             </div>
           </div>
         </div>
-        <div class="testimonial-arrows">
-          <span id="testimonial-prev"><i class="ri-arrow-left-line"></i></span>
-          <span id="testimonial-next"><i class="ri-arrow-right-line"></i></span>
-        </div>
       </div>
     </section>
 
-    <section class="contact__container animate-in-section">
+    <section class="contact__container animate-in-section" id="contact">
       <h2 class="section__header">GET IN TOUCH</h2>
       <p class="section__subheader">
         Ready to transform your life? Contact us today and let’s achieve your goals together!
